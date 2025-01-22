@@ -63,4 +63,4 @@ zero escape <文本>
 
 ## 📄 许可证
 
-MIT License © 2024
+MIT License © 2025
