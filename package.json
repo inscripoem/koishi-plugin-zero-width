@@ -22,5 +22,11 @@
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4"
+  },
+  "koishi": {
+    "description": {
+      "en": "A zero width character (ZWC) processor for koishi",
+      "zh": "零宽字符隐写/提取/转义工具"
+    }
   }
 }
