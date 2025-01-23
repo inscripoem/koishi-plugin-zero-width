@@ -1,11 +1,18 @@
-import type { Context } from 'koishi'
+import { Context, Schema } from 'koishi'
 import * as z from 'zero-width-lib'
 
 export const name = 'zero-width'
 
-export function apply(ctx: Context) {
+export interface Config {
+  timeout?: number
+}
 
-  const globalTimeout = 10000
+export const Config: Schema<Config> = Schema.object({
+  timeout: Schema.number().default(10000).description('命令交互的超时时间（毫秒）'),
+})
+
+export function apply(ctx: Context, config: Config) {
+  const globalTimeout = config.timeout
   
   ctx.command('zero').alias('零宽')
     .usage('零宽字符工具\n' +
