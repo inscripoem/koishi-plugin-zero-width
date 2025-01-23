@@ -1,7 +1,10 @@
 {
   "name": "koishi-plugin-zero-width",
   "description": "A zero width character (ZWC) processor for koishi.",
-  "version": "0.2.0",
+  "version": "0.2.1",
+  "contributors": [
+    "inscripoem <changxuben@gmail.com>"
+  ],
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -9,6 +12,10 @@
     "dist"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inscripoem/koishi-plugin-zero-width.git"
+  },
   "keywords": [
     "chatbot",
     "koishi",
