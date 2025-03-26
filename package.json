@@ -1,7 +1,7 @@
 {
   "name": "koishi-plugin-zero-width",
   "description": "A zero width character (ZWC) processor for koishi.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "contributors": [
     "inscripoem <changxuben@gmail.com>"
   ],

@@ -1,4 +1,4 @@
-import { type Context, Schema } from 'koishi'
+import { Context, Schema } from 'koishi'
 import * as z from 'zero-width-lib'
 
 export const name = 'zero-width'
